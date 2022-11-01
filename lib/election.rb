@@ -15,7 +15,7 @@ class Election
     @races << race
   end
 
-  def candidates_array
+  def candidates_array # Was pressed for time and had no time for test. Returns nested arrays of candidates to be flattened by candidates method
     @races.map do |race|
       race.candidates
     end
